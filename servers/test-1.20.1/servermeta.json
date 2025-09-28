@@ -1,13 +1,13 @@
 {
   "$schema": "file:///C:/Users/olive/TestRoot/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.0",
-    "name": "test (Minecraft 1.20.1)",
-    "description": "test Running Minecraft 1.20.1 (Fabric v0.17.2)",
+    "version": "1.0.1",
+    "name": "Test Pack",
+    "description": "A testing pack with Hex Casting",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "mc.oliverj.io:25565",
     "mainServer": true,
-    "autoconnect": false
+    "autoconnect": true
   },
   "fabric": {
     "version": "0.17.2"
