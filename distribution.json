@@ -20,7 +20,7 @@
           "artifact": {
             "size": 1915305,
             "MD5": "72dd698d701202d46303fc913cfcbf23",
-            "url": "https://oliverj-io.github.io/repo/lib/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+            "url": "https://oliverj-io.github.io/helios-data/repo/lib/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
           },
           "subModules": [
             {
@@ -30,7 +30,7 @@
               "artifact": {
                 "size": 2847,
                 "MD5": "8e4fcc376143011477f2ef173626fb92",
-                "url": "https://oliverj-io.github.io/repo/versions/1.20.1-fabric-0.17.2/1.20.1-fabric-0.17.2.json"
+                "url": "https://oliverj-io.github.io/helios-data/repo/versions/1.20.1-fabric-0.17.2/1.20.1-fabric-0.17.2.json"
               }
             },
             {
@@ -40,7 +40,7 @@
               "artifact": {
                 "size": 126113,
                 "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
-                "url": "https://oliverj-io.github.io/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
               }
             },
             {
@@ -50,7 +50,7 @@
               "artifact": {
                 "size": 35151,
                 "MD5": "3d63508405f5610fc2ea673ff5471553",
-                "url": "https://oliverj-io.github.io/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
               }
             },
             {
@@ -60,7 +60,7 @@
               "artifact": {
                 "size": 73498,
                 "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
-                "url": "https://oliverj-io.github.io/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
               }
             },
             {
@@ -70,7 +70,7 @@
               "artifact": {
                 "size": 51934,
                 "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
-                "url": "https://oliverj-io.github.io/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
               }
             },
             {
@@ -80,7 +80,7 @@
               "artifact": {
                 "size": 94559,
                 "MD5": "62498ef324bdab15f407d703f7d78d19",
-                "url": "https://oliverj-io.github.io/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
               }
             },
             {
@@ -90,7 +90,7 @@
               "artifact": {
                 "size": 1504156,
                 "MD5": "aa4a43d5b0e9abf4fcb57520ffeb0019",
-                "url": "https://oliverj-io.github.io/repo/lib/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
               }
             },
             {
@@ -100,7 +100,7 @@
               "artifact": {
                 "size": 573365,
                 "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                "url": "https://oliverj-io.github.io/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
               }
             }
           ]
@@ -111,7 +111,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 228709,
-            "url": "https://oliverj-io.github.io/servers/test-1.20.1/fabricmods/required/cardinal-components-api-5.2.3.jar",
+            "url": "https://oliverj-io.github.io/helios-data/servers/test-1.20.1/fabricmods/required/cardinal-components-api-5.2.3.jar",
             "MD5": "b902397d35fbbf6df232f46fb483024a"
           }
         },
@@ -121,7 +121,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1172214,
-            "url": "https://oliverj-io.github.io/servers/test-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
+            "url": "https://oliverj-io.github.io/helios-data/servers/test-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
             "MD5": "45d8bada7797af61d1f5543313b1f9f0"
           }
         },
@@ -131,7 +131,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2107873,
-            "url": "https://oliverj-io.github.io/servers/test-1.20.1/fabricmods/required/fabric-api-0.92.6+1.20.1.jar",
+            "url": "https://oliverj-io.github.io/helios-data/servers/test-1.20.1/fabricmods/required/fabric-api-0.92.6+1.20.1.jar",
             "MD5": "3483560775f416a4c759535b898165a5"
           }
         },
@@ -141,7 +141,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 7479598,
-            "url": "https://oliverj-io.github.io/servers/test-1.20.1/fabricmods/required/fabric-language-kotlin-1.13.6+kotlin.2.2.20.jar",
+            "url": "https://oliverj-io.github.io/helios-data/servers/test-1.20.1/fabricmods/required/fabric-language-kotlin-1.13.6+kotlin.2.2.20.jar",
             "MD5": "c1d19e5d8b325b55c11c767468005aa2"
           }
         },
@@ -151,7 +151,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 3752418,
-            "url": "https://oliverj-io.github.io/servers/test-1.20.1/fabricmods/required/hexcasting-fabric-1.20.1-0.11.2.jar",
+            "url": "https://oliverj-io.github.io/helios-data/servers/test-1.20.1/fabricmods/required/hexcasting-fabric-1.20.1-0.11.2.jar",
             "MD5": "7716e5c739449aa8332feef9f4a5585f"
           }
         },
@@ -161,7 +161,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 367628,
-            "url": "https://oliverj-io.github.io/servers/test-1.20.1/fabricmods/required/inline-fabric-1.20.1-1.2.2.jar",
+            "url": "https://oliverj-io.github.io/helios-data/servers/test-1.20.1/fabricmods/required/inline-fabric-1.20.1-1.2.2.jar",
             "MD5": "54c5e75aaafd5175c81213c2d06c6ac3"
           }
         },
@@ -171,7 +171,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 857105,
-            "url": "https://oliverj-io.github.io/servers/test-1.20.1/fabricmods/required/Patchouli-1.20.1-84.1-FABRIC.jar",
+            "url": "https://oliverj-io.github.io/helios-data/servers/test-1.20.1/fabricmods/required/Patchouli-1.20.1-84.1-FABRIC.jar",
             "MD5": "b52268ad784647f0d9af84cb77b8aa68"
           }
         },
@@ -181,7 +181,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 280252,
-            "url": "https://oliverj-io.github.io/servers/test-1.20.1/fabricmods/required/paucal-0.6.0+1.20.1-fabric.jar",
+            "url": "https://oliverj-io.github.io/helios-data/servers/test-1.20.1/fabricmods/required/paucal-0.6.0+1.20.1-fabric.jar",
             "MD5": "30894e5b6109dfbf99ace7bb2313d080"
           }
         }
