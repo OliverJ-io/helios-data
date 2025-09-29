@@ -3,6 +3,664 @@
   "rss": "https://lorem-rss.herokuapp.com/feed?unit=minute&interval=10",
   "servers": [
     {
+      "id": "tartarus-1.20.1",
+      "name": "Tartarus",
+      "description": "This is the main tartarus server pack",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "tartarus.oliverj.io:25565",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.17.2",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1915305,
+            "MD5": "72dd698d701202d46303fc913cfcbf23",
+            "url": "https://oliverj-io.github.io/helios-data/repo/lib/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.17.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "8e4fcc376143011477f2ef173626fb92",
+                "url": "https://oliverj-io.github.io/helios-data/repo/versions/1.20.1-fabric-0.17.2/1.20.1-fabric-0.17.2.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504156,
+                "MD5": "aa4a43d5b0e9abf4fcb57520ffeb0019",
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://oliverj-io.github.io/helios-data/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1064362,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/appleskin-fabric-mc1.20.1-2.5.1.jar",
+            "MD5": "723370be246a876144ae424cbbfd60f4"
+          }
+        },
+        {
+          "id": "appeng.core:ae2:15.4.8@jar",
+          "name": "Applied Energistics 2",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 9883997,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/appliedenergistics2-fabric-15.4.8.jar",
+            "MD5": "247423c329a0150a31f372e74b1cddc7"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 585207,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/architectury-9.2.14-fabric.jar",
+            "MD5": "2ae04e0dad60a390031ee341e0b2ab45"
+          }
+        },
+        {
+          "id": "me.cominixo:betterf3:7.0.2@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1782676,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/optionalon/BetterF3-7.0.2-Fabric-1.20.1.jar",
+            "MD5": "acda45b22c255f78f3242056b1221c8e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:borderlessmining:1.1.8+1.20.1@jar",
+          "name": "Borderless Mining",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 118295,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/optionalon/borderless-mining-1.1.8+1.20.1.jar",
+            "MD5": "e35125dd22a96775fea86c1acef59a9a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "gay.object:caduceus:0.1.1+1.20.1@jar",
+          "name": "Caduceus",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5426551,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/caduceus-fabric-0.1.1+1.20.1.jar",
+            "MD5": "1c8b8caed880c6a42e5eb785cee7658d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:cardinal-components:5.2.3@jar",
+          "name": "Cardinal Components API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 228709,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/cardinal-components-api-5.2.3.jar",
+            "MD5": "b902397d35fbbf6df232f46fb483024a"
+          }
+        },
+        {
+          "id": "dan200.computercraft.shared:computercraft:1.116.1@jar",
+          "name": "CC: Tweaked",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3593890,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/cc-tweaked-1.20.1-fabric-1.116.1.jar",
+            "MD5": "80a85377649a0cad29783c4cb212c0e6"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.136@jar",
+          "name": "Cloth Config v11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1172214,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
+            "MD5": "45d8bada7797af61d1f5543313b1f9f0"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21987,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/Clumps-fabric-1.20.1-12.0.0.4.jar",
+            "MD5": "c9caf2ddb4085e89e0cc823b21bce025"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1-j-build.1631+mc1.20.1@jar",
+          "name": "Create",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 24841934,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/create-fabric-0.5.1-j-build.1631+mc1.20.1.jar",
+            "MD5": "48de208df4154d2149101d351148569b"
+          }
+        },
+        {
+          "id": "moriyashiine.enchancement:enchancement:1.20-26@jar",
+          "name": "Enchancement",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1086037,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/enchancement-1.20-26.jar",
+            "MD5": "d15c0bb3ec778f96535d06be69ecec55"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.6+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107873,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/fabric-api-0.92.6+1.20.1.jar",
+            "MD5": "3483560775f416a4c759535b898165a5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.6+kotlin.2.2.20@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7479598,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/fabric-language-kotlin-1.13.6+kotlin.2.2.20.jar",
+            "MD5": "c1d19e5d8b325b55c11c767468005aa2"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125197,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+            "MD5": "a19272e427f75fea59127de6610ea26b"
+          }
+        },
+        {
+          "id": "org.figuramc:figura:0.1.5+1.20.1@jar",
+          "name": "Figura",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2462747,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/figura-0.1.5+1.20.1-fabric-mc.jar",
+            "MD5": "11503330e53468c7e496fdfb1ebb49af"
+          }
+        },
+        {
+          "id": "net.knownsh:figurasvc:2.0.1+1.20.1@jar",
+          "name": "FiguraSVC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 26158,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/figurasvc-2.0.1+1.20.1.jar",
+            "MD5": "f9187bddc16ee29e2b3934e41210806a"
+          }
+        },
+        {
+          "id": "com.hakimen:hex_machina:1.0.1@jar",
+          "name": "Hex Machina",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 162661,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hex_machina-1.0.1.jar",
+            "MD5": "8bcdb0125aed15bdabd8920daa11bcf2"
+          }
+        },
+        {
+          "id": "miyucomics.hexcassettes:hexcassettes:1.1.4@jar",
+          "name": "Hexcassettes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 106991,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexcassettes-1.1.4.jar",
+            "MD5": "36487064cb740d0dd463c2a2fb1dfa56"
+          }
+        },
+        {
+          "id": "at.petrak:hexcasting:0.11.2@jar",
+          "name": "Hex Casting",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3752418,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexcasting-fabric-1.20.1-0.11.2.jar",
+            "MD5": "7716e5c739449aa8332feef9f4a5585f"
+          }
+        },
+        {
+          "id": "miyucomics.hexcellular:hexcellular:1.0.4@jar",
+          "name": "Hexcellular",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 29360,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexcellular-1.0.4.jar",
+            "MD5": "6b1cfb30aebd73cecaa1f0df83206156"
+          }
+        },
+        {
+          "id": "gay.thehivemind:hexchanting:1.1.3@jar",
+          "name": "Hexchanting",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 126151,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexchanting-1.1.3.jar",
+            "MD5": "3cf18115d3ec9eda23b2b28f18e7107a"
+          }
+        },
+        {
+          "id": "io.yukkuric:hexflow:1.20.1-0.3.1@jar",
+          "name": "HexFlow",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 115853,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexFlow-fabric-1.20.1-0.3.1.jar",
+            "MD5": "a135be1aea3b99ac54079e31f732ec9e"
+          }
+        },
+        {
+          "id": "miyucomics.hexical:hexical:1.5.0@jar",
+          "name": "Hexical",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1154846,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexical-1.5.0.jar",
+            "MD5": "873b6e7eed78b83a97a2b05c1978b9c3"
+          }
+        },
+        {
+          "id": "io.yukkuric:hexparse:1.20.1-1.4.0@jar",
+          "name": "HexParse",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 228629,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexParse-fabric-1.20.1-1.4.0.jar",
+            "MD5": "d687d88db217b49167b5761d087c6a55"
+          }
+        },
+        {
+          "id": "jempasam.hexpigmentplus:hexpigmentplus:1.7.1@jar",
+          "name": "Hex Pigment Plus",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 103639,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexpigmentplus-1.7.1.jar",
+            "MD5": "a7578ee457d976b5d0be13b927f83bac"
+          }
+        },
+        {
+          "id": "dev.kineticcat:hexportation:0.0.3@jar",
+          "name": "Hexportation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 19032585,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexportation-fabric-1.20.1-0.0.3.jar",
+            "MD5": "c6ff0c3727382506ff72c8f85ce92458"
+          }
+        },
+        {
+          "id": "miyucomics.hexpose:hexpose:1.0.0@jar",
+          "name": "Hexpose",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 333196,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexpose-1.0.0.jar",
+            "MD5": "b7f813aa672d6b1bd6acfbe42b4210cc"
+          }
+        },
+        {
+          "id": "org.agent:hexstruction:1.2.1+1.20.1-SNAPSHOT@jar",
+          "name": "HexStruction",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 295542,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexstruction-fabric-1.2.1+1.20.1.jar",
+            "MD5": "f3b3b4ffb4e8069c57ab44a91aa24c86"
+          }
+        },
+        {
+          "id": "abilliontrillionstars.hextended:hextended:2.0.1@jar",
+          "name": "Hextended Gear",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 348011,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hextended-fabric-1.20.1-2.0.1.jar",
+            "MD5": "f0d2f756e1edb7483de967871222a3a4"
+          }
+        },
+        {
+          "id": "net.walksanator.hexdim:hexxy-dimensions:1.3.0@jar",
+          "name": "Hexxy Dimensions",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 162549,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexxy-dimensions-1.3.0.jar",
+            "MD5": "1e8dc0425c8a78f10353ae6810c5a8dd"
+          }
+        },
+        {
+          "id": "net.just_s:hexxyattributes:1.0@jar",
+          "name": "Hexxy Attributes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 58080,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hexxyattributes-1.0.jar",
+            "MD5": "eec4f5301fedb23b27a09a91ea95463a"
+          }
+        },
+        {
+          "id": "robotgiggle.hierophantics:hierophantics:1.3.2@jar",
+          "name": "Hierophantics",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 493798,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/hierophantics-fabric-1.3.2.jar",
+            "MD5": "fb18caf49491db506bd105022a23e8f1"
+          }
+        },
+        {
+          "id": "immersive_paintings:immersive_paintings:0.6.8+1.20.1@jar",
+          "name": "Immersive Paintings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4853104,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/immersive_paintings-0.6.8+1.20.1-fabric.jar",
+            "MD5": "f9d65b7e7672433697928affd5bfe470"
+          }
+        },
+        {
+          "id": "qouteall.imm_ptl.peripheral.platform_specific:immersive_portals:3.3.9@jar",
+          "name": "Immersive Portals",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2937436,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/immersive-portals-3.3.9-mc1.20.1-fabric.jar",
+            "MD5": "5bcc1c4741eadef75d2a61c66b519b8e"
+          }
+        },
+        {
+          "id": "com.samsthenerd:inline:1.20.1-1.2.2@jar",
+          "name": "Inline",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 367628,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/inline-fabric-1.20.1-1.2.2.jar",
+            "MD5": "54c5e75aaafd5175c81213c2d06c6ac3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.6+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2726899,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/optionalon/iris-1.7.6+mc1.20.1.jar",
+            "MD5": "45577adb5ab16505572c6ea4b1006e58"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.1+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 572882,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/Jade-1.20-Fabric-11.13.1.jar",
+            "MD5": "746ebf9ff115af98bf7899a72f1e6aec"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.3@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 706600,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.3.jar",
+            "MD5": "de6d394cedf7e33bfd4b03209156211a"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.15@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65491,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/modelfix-1.15-fabric.jar",
+            "MD5": "5503cf88c4ecb768330655258fa9b388"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "ram.talia:moreiotas:0.1.1@jar",
+          "name": "MoreIotas",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 19435809,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/moreiotas-fabric-1.20.1-0.1.1.jar",
+            "MD5": "f1cb0fcec11263276c298b0e53dc686c"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77943,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/MouseTweaks-fabric-mc1.20-2.26.jar",
+            "MD5": "3138c776d370c90603938eb54d17469a"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.20.1-v2.2.2@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 619812,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
+            "MD5": "62ebb770ad9e08008abf6df50a6a1aa7"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.20.1-84.1-FABRIC@jar",
+          "name": "Patchouli",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 857105,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/Patchouli-1.20.1-84.1-FABRIC.jar",
+            "MD5": "b52268ad784647f0d9af84cb77b8aa68"
+          }
+        },
+        {
+          "id": "at.petrak:paucal:0.6.0+1.20.1-fabric@jar",
+          "name": "PAUCAL",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 280252,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/paucal-0.6.0+1.20.1-fabric.jar",
+            "MD5": "30894e5b6109dfbf99ace7bb2313d080"
+          }
+        },
+        {
+          "id": "me.shedaniel.rei.impl.init:roughlyenoughitems:12.1.785@jar",
+          "name": "Roughly Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2443883,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/RoughlyEnoughItems-12.1.785-fabric.jar",
+            "MD5": "f4c4a3d57e68c3fc22da73b341c7fa7e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:searchables:1.0.3@jar",
+          "name": "Searchables",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80283,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/optionalon/Searchables-fabric-1.20.1-1.0.3.jar",
+            "MD5": "57cbf00f9bb837538a3a694cad095a11"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.sophia:slate_work:1.0.5@jar",
+          "name": "Slate Works",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 449445,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/Slate_Work-1.0.5.jar",
+            "MD5": "5ec1c3e92671a5c6c6402e61fa3628e4"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 971552,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/sodium-fabric-0.5.13+mc1.20.1.jar",
+            "MD5": "76e0349865f91f315aae087a6e88a84a"
+          }
+        },
+        {
+          "id": "com.railwayteam:railways:1.6.9+fabric-mc1.20.1@jar",
+          "name": "Create: Steam 'n' Rails",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 9892101,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/Steam_Rails-1.6.9+fabric-mc1.20.1.jar",
+            "MD5": "404efdba168d9405e1ef1ab199a4c344"
+          }
+        },
+        {
+          "id": "generated.fabricmod:tooltipfix:1.1.1-1.20@jar",
+          "name": "ToolTip Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12432,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/tooltipfix-1.1.1-1.20.jar",
+            "MD5": "492430f451d89f7fe2d7b8410c9748ac"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.6.4@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5248979,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.6.4.jar",
+            "MD5": "1d38643f016ded0cc0c033d890e3e39b"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 96,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/files/servers.dat",
+            "MD5": "bb73b421dc9e9b818447b50cbe63b8d1",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    },
+    {
       "id": "test-1.20.1",
       "name": "Test Pack",
       "description": "A testing pack with Hex Casting",

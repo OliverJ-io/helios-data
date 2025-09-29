@@ -1,0 +1,16 @@
+{
+  "$schema": "file:///C:/Users/olive/TestRoot/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Tartarus",
+    "description": "This is the main tartarus server pack",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "tartarus.oliverj.io:25565",
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.17.2"
+  },
+  "untrackedFiles": []
+}
