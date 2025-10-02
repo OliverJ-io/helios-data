@@ -7,7 +7,7 @@
       "name": "Tartarus",
       "description": "This is the main tartarus server pack",
       "icon": null,
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "tartarus.oliverj.io:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -452,13 +452,13 @@
           }
         },
         {
-          "id": "qouteall.imm_ptl.peripheral.platform_specific:immersive_portals:3.3.9@jar",
-          "name": "Immersive Portals",
+          "id": "link.infra:indium:1.0.36+mc1.20.1@jar",
+          "name": "Indium",
           "type": "FabricMod",
           "artifact": {
-            "size": 2937436,
-            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/immersive-portals-3.3.9-mc1.20.1-fabric.jar",
-            "MD5": "5bcc1c4741eadef75d2a61c66b519b8e"
+            "size": 105382,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/indium-1.0.36+mc1.20.1.jar",
+            "MD5": "21cefdaa742e1f31ded4f85f55a0f41c"
           }
         },
         {
