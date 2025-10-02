@@ -222,6 +222,16 @@
           }
         },
         {
+          "id": "com.samsthenerd.duckyperiphs:ducky-periphs:1.20.1-1.3.1@jar",
+          "name": "Ducky Peripherals",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 20139705,
+            "url": "https://oliverj-io.github.io/helios-data/servers/tartarus-1.20.1/fabricmods/required/duckyperiphs-1.20.1-1.3.1-fabric.jar",
+            "MD5": "fae02599a79a3d14b8d4d54aeef02bbf"
+          }
+        },
+        {
           "id": "moriyashiine.enchancement:enchancement:1.20-26@jar",
           "name": "Enchancement",
           "type": "FabricMod",
